@@ -1,0 +1,59 @@
+div {
+    text-align: center;
+}
+.sidebar {
+    height: 398px;
+    float: right;
+    width: 15%;
+    margin: 0px auto 0px auto;
+    z-index: -1;
+    border: 3px black solid;
+    background-color: black;
+}
+.navLink {
+    position: relative;
+    float: top;
+    width: 20%;
+    height: 25px;
+}
+.htre {
+    position: relative;
+    text-align: center;
+}
+.container1 {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+    background-color: blue;
+    z-index: 1;
+    float: left;
+}
+.bgpic {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-left: 100px;
+    background-image: url("bgpic.jpg");
+    z-index: 0;
+}
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 0px auto 0px auto;
+    background-color: red;
+    z-index: 0;
+    margin-left: 100px;
+}
+.bigcontainer {
+    height: 404px;
+    background-color: green;
+}
+.leftpic {
+    float: left;
+}
+
+.header{
+  background-color: orange;
+}
